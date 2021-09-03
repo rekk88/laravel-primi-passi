@@ -10,17 +10,7 @@
 
 </head>
 <body>
-    <h1>Hello world!</h1>
-   
-    <ul>
-        @foreach($title as $t)
-            <li>
-                {{$t}}
-            </li>
-        @endforeach
-    </ul>
-    <div>
-        <a href="{{route('robe')}}">Robe</a>
-    </div>
+    <h1>Robe</h1>
+
 </body>
 </html>

@@ -21,3 +21,7 @@ Route::get('/', function () {
     // visualizzata all'avvio
     
 });
+
+Route::get('/robe' , function(){
+    return view('robe');
+}) ->name('robe');
