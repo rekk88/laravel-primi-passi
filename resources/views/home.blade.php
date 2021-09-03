@@ -11,6 +11,13 @@
 </head>
 <body>
     <h1>Hello world!</h1>
-    <h2>{{ $title }}</h2>
+   
+    <ul>
+        @foreach($title as $t)
+            <li>
+                {{$t}}
+            </li>
+        @endforeach
+    </ul>
 </body>
 </html>
