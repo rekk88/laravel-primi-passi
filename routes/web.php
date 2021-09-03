@@ -14,5 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $data = [
+        'title' => 'pagina1'
+    ];
+    return view('home'); //la stringa corrisponde al nome della pagina
+    // visualizzata all'avvio
+    
 });
