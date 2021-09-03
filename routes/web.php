@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $data = [
-        'title' => 'pagina1'
+        'title' => ['asdasdad','afafaff','sddfsdfsdf'],
     ];
     return view('home',$data); //la stringa corrisponde al nome della pagina
     // visualizzata all'avvio
